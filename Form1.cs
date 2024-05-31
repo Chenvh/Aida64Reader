@@ -129,7 +129,11 @@ namespace Aida64Reader
                 lv.BeginUpdate();
                 lv.Items.Clear();
 
+<<<<<<< HEAD
                 lv.Items[1].SubItems.Clear();
+=======
+                //lv.Items[1].SubItems.Clear();
+>>>>>>> 修改布局,添加图标
                 foreach (var i in sysElements)
                 {
                     //Console.WriteLine(i.Element("id").Value + "\t" + i.Element("label").Value + "\t" + i.Element("value").Value);
@@ -138,7 +142,11 @@ namespace Aida64Reader
 
                     lvitem.SubItems.Clear();
                     lvitem.Group = lv.Groups[0];
+<<<<<<< HEAD
                     if (FirstItemAddFlag) lvitem.SubItems[0].Text = i.Element("label").Value;
+=======
+                    lvitem.SubItems[0].Text = i.Element("label").Value;
+>>>>>>> 修改布局,添加图标
                     lvitem.SubItems.Add(i.Element("value").Value);
                     lv.Items.Add(lvitem);
                     //listBox3.Items.Add(tempitem);
@@ -190,7 +198,11 @@ namespace Aida64Reader
 
                     lvitem.SubItems.Clear();
                     lvitem.Group = lv.Groups[1];
+<<<<<<< HEAD
                     if (FirstItemAddFlag) lvitem.SubItems[0].Text = i.Element("label").Value;
+=======
+                    lvitem.SubItems[0].Text = i.Element("label").Value;
+>>>>>>> 修改布局,添加图标
                     lvitem.SubItems.Add(i.Element("value").Value);
                     lv.Items.Add(lvitem);
                     switch (i.Element("id").Value)
@@ -220,7 +232,11 @@ namespace Aida64Reader
 
                     lvitem.SubItems.Clear();
                     lvitem.Group = lv.Groups[4];
+<<<<<<< HEAD
                     if (FirstItemAddFlag) lvitem.SubItems[0].Text = i.Element("label").Value;
+=======
+                    lvitem.SubItems[0].Text = i.Element("label").Value;
+>>>>>>> 修改布局,添加图标
                     lvitem.SubItems.Add(i.Element("value").Value);
                     lv.Items.Add(lvitem);
                     switch (i.Element("id").Value)
@@ -251,7 +267,11 @@ namespace Aida64Reader
 
                     lvitem.SubItems.Clear();
                     lvitem.Group = lv.Groups[3];
+<<<<<<< HEAD
                     if (FirstItemAddFlag) lvitem.SubItems[0].Text = i.Element("label").Value;
+=======
+                    lvitem.SubItems[0].Text = i.Element("label").Value;
+>>>>>>> 修改布局,添加图标
                     lvitem.SubItems.Add(i.Element("value").Value);
                     lv.Items.Add(lvitem);
                     switch (i.Element("id").Value)
