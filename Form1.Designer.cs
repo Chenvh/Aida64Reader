@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-<<<<<<< HEAD
-=======
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
->>>>>>> 修改布局,添加图标
             this.panel1 = new System.Windows.Forms.Panel();
             this.openport_bt = new System.Windows.Forms.Button();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
@@ -52,20 +48,13 @@
             this.textBox_send = new System.Windows.Forms.TextBox();
             this.textBox_receive = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
-=======
-            this.button2 = new System.Windows.Forms.Button();
->>>>>>> 修改布局,添加图标
             this.button1 = new System.Windows.Forms.Button();
             this.send_bt = new System.Windows.Forms.Button();
             this.textSendInterval = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-<<<<<<< HEAD
             this.button2 = new System.Windows.Forms.Button();
-=======
->>>>>>> 修改布局,添加图标
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -286,20 +275,6 @@
             this.panel3.Size = new System.Drawing.Size(233, 214);
             this.panel3.TabIndex = 2;
             // 
-<<<<<<< HEAD
-=======
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("微软雅黑", 10F);
-            this.button2.Location = new System.Drawing.Point(11, 158);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(209, 47);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "单次发送";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
->>>>>>> 修改布局,添加图标
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("微软雅黑", 10F);
@@ -364,7 +339,6 @@
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
-<<<<<<< HEAD
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("微软雅黑", 10F);
@@ -376,8 +350,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-=======
->>>>>>> 修改布局,添加图标
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -386,10 +358,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-<<<<<<< HEAD
-=======
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
->>>>>>> 修改布局,添加图标
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
